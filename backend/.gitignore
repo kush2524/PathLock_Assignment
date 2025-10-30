@@ -1,0 +1,26 @@
+# --- Ignore local SDK/runtime/temp ---
+.dotnet/
+.tmp/
+.vs/
+.vscode/
+*.user
+*.suo
+*.log
+*.tmp
+*.dbmdl
+
+# --- Ignore build output ---
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+artifacts/
+
+# --- Ignore Node/React build ---
+client/node_modules/
+client/dist/
+client/build/
+client/.cache/
+
+# --- Ignore environment files ---
+*.env
+.env.*
